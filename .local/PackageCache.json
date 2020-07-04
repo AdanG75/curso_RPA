@@ -42,6 +42,21 @@
     },
     {
       "Package": {
+        "Id": "UiPath.PDF.Activities",
+        "Version": "3.2.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\COFFE\\.nuget\\packages\\bitmiracle.docotic.pdf/5.10.9957\\lib/net40/BitMiracle.Docotic.Pdf.dll",
+        "C:\\Users\\COFFE\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.ocr.contracts/2.6.0\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.pdf.activities/3.2.2\\lib/net461/UiPath.PDF.Activities.Design.dll",
+        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.pdf.activities/3.2.2\\lib/net461/UiPath.PDF.Activities.dll",
+        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.pdf.activities/3.2.2\\lib/net461/UiPath.PDF.dll"
+      ],
+      "Path": "C:\\Users\\COFFE\\.nuget\\packages\\uipath.pdf.activities\\3.2.2"
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
         "Version": "20.4.0"
       },
@@ -116,18 +131,16 @@
     },
     {
       "Package": {
-        "Id": "UiPath.PDF.Activities",
-        "Version": "3.2.2"
+        "Id": "UiPath.Database.Activities",
+        "Version": "1.3.7369.25200"
       },
       "Assemblies": [
-        "C:\\Users\\COFFE\\.nuget\\packages\\bitmiracle.docotic.pdf/5.10.9957\\lib/net40/BitMiracle.Docotic.Pdf.dll",
-        "C:\\Users\\COFFE\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.ocr.contracts/2.6.0\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.pdf.activities/3.2.2\\lib/net461/UiPath.PDF.Activities.Design.dll",
-        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.pdf.activities/3.2.2\\lib/net461/UiPath.PDF.Activities.dll",
-        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.pdf.activities/3.2.2\\lib/net461/UiPath.PDF.dll"
+        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.database.activities/1.3.7369.25200\\lib/net452/Microsoft.Data.ConnectionUI.Dialog.dll",
+        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.database.activities/1.3.7369.25200\\lib/net452/UiPath.Database.Activities.Design.dll",
+        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.database.activities/1.3.7369.25200\\lib/net452/UiPath.Database.Activities.dll",
+        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.database.activities/1.3.7369.25200\\lib/net452/UiPath.Database.dll"
       ],
-      "Path": "C:\\Users\\COFFE\\.nuget\\packages\\uipath.pdf.activities\\3.2.2"
+      "Path": "C:\\Users\\COFFE\\.nuget\\packages\\uipath.database.activities\\1.3.7369.25200"
     }
   ],
   "Conflicts": [],
@@ -250,6 +263,11 @@
     "UiPath": {
       "Id": "UiPath",
       "Version": "20.4.7472.17184",
+      "Dependencies": []
+    },
+    "UiPath.Database.Activities": {
+      "Id": "UiPath.Database.Activities",
+      "Version": "1.3.7369.25200",
       "Dependencies": []
     },
     "UiPath.Excel.Activities": {
@@ -651,6 +669,19 @@
         "C:\\Users\\COFFE\\.nuget\\packages\\uipath\\20.4.7472.17184\\lib\\UiPath.Interop.dll"
       ],
       "Path": "C:\\Users\\COFFE\\.nuget\\packages\\uipath\\20.4.7472.17184"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Database.Activities",
+        "Version": "1.3.7369.25200"
+      },
+      "Assemblies": [
+        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.database.activities\\1.3.7369.25200\\lib\\net452\\Microsoft.Data.ConnectionUI.Dialog.dll",
+        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.database.activities\\1.3.7369.25200\\lib\\net452\\UiPath.Database.Activities.Design.dll",
+        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.database.activities\\1.3.7369.25200\\lib\\net452\\UiPath.Database.Activities.dll",
+        "C:\\Users\\COFFE\\.nuget\\packages\\uipath.database.activities\\1.3.7369.25200\\lib\\net452\\UiPath.Database.dll"
+      ],
+      "Path": "C:\\Users\\COFFE\\.nuget\\packages\\uipath.database.activities\\1.3.7369.25200"
     },
     {
       "Package": {
